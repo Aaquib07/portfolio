@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -8,18 +8,18 @@ const Navbar = () => {
           <h1 className="text-xl font-bold">Aaquib Asrar</h1>
         </Link>
         <div>
-          <Link to={'/'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
+          <NavLink to={'/'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
             Home
-          </Link>
-          <Link to={'/about'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
+          </NavLink>
+          <NavLink to={'/about'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
             About
-          </Link>
-          <Link to={'/projects'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
+          </NavLink>
+          <NavLink to={'/projects'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
             Projects
-          </Link>
-          <Link to={'/contact'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
+          </NavLink>
+          <NavLink to={'/contact'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
             Contact
-          </Link>
+          </NavLink>
         </div>
       </div>
   );

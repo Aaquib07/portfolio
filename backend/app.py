@@ -1,12 +1,24 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
+from flask_mail import Mail, Message
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
+
+app.config['MAIL_SERVER'] = 'smtp.gmail.com'
+app.config['MAIL_PORT'] = 465
+app.config['MAIL_USERNAME'] = 'aaquibasrar4@gmail.com'
+app.config['MAIL_PASSWORD'] = 'pssgpgfuxwjqryqx'
+app.config['MAIL_USE_TLS'] = False
+app.config['MAIL_USE_SSL'] = True
+
+mail = Mail(app)
 
 
 # Index page
 @app.route('/')
 def index():
-    return 'This is the homepage'
+    return 'Index page'
 
 
 # About page
@@ -38,13 +50,20 @@ def projects():
 
 
 # Contact page
-@app.route('/contact')
-def contact():
-    return jsonify({
-        'email': 'aaquibasrar4@gmail.com',
-        'linkedin': 'LinkedIn profile',
-        'github': 'Github profile',
-    })
+@app.route('/contact', methods=['POST'])
+def send_message():
+    name = request.json.get('name')
+    email = request.json.get('email')
+    message = request.json.get('message')
+
+    msg = Message(subject='Message from Client', sender=email, recipients=['aaquibasrar4@gmail.com'])
+    msg.body = message
+
+    try:
+        mail.send(msg)
+        return jsonify({'message': 'Email sent successfully'}), 200
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 
 if __name__ == '__main__':

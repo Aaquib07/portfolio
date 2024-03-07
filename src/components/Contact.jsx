@@ -17,10 +17,27 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log(formData);
+    try {
+      const response = await fetch('http://localhost:5000/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData)
+      })
+      const data = await response.text()
+      if (response.ok) {
+        alert('Your message has been sent successfully!')
+      }
+      else {
+        throw new Error(data)
+      }
+    } catch (error) {
+      alert('Failed to send message. Please try again later.')
+      console.error('Error:', error)
+    }
   };
 
   return (

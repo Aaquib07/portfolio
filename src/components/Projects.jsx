@@ -7,31 +7,31 @@ const Projects = () => {
   const projectsList = [
     {
       id: 1,
-      title: 'Project 1',
-      description: 'This is the first project',
+      title: 'Movie Recommendation System',
+      description: ['A Streamlit-based application to recommend movies to the user.', 'Content-based filtering has been applied to filter movies.', 'Cosine similarity has been used to calculate the similarity between movies.'],
       projectLink: '/',
-      codeLink: '/'
+      codeLink: 'https://github.com/Aaquib07/Movie_Recommendation_System'
     },
     {
       id: 2,
-      title: 'Project 2',
-      description: 'This is the second project',
+      title: 'Bloggers',
+      description: ['It is a Flask-based web application that let users to write blogs', 'Features include - User authentication, Profile updating, Pagination, Email confirmation to change password'],
       projectLink: '/',
-      codeLink: '/'
+      codeLink: 'https://github.com/Aaquib07/Bloggers'
     },
     {
       id: 3,
-      title: 'Project 3',
-      description: 'This is the third project',
+      title: 'Sentiment Analysis',
+      description: ['An LSTM-based deep learning model that predicts sentiment of users', 'Achieved an accuracy of around 90% on tweets of users on Twitter'],
       projectLink: '/',
-      codeLink: '/'
+      codeLink: 'https://github.com/Aaquib07/Sentiment-Analysis'
     }
   ]
 
   return (
     <div>
       <Navbar />
-      <div className="h-screen flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center">
         {projectsList.map(project => (
           <ProjectCard key={project.id} project={project} />
         ))}
