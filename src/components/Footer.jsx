@@ -1,13 +1,14 @@
 import React from 'react';
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub, FaCode } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
     const linkedInURL = 'https://www.linkedin.com/in/aaquib-asrar/'
     const githubURL = 'https://github.com/Aaquib07'
+    const leetcodeURL = 'https://leetcode.com/Aaquib_16/'
   return (
-    <div className="bg-gray-800 text-white p-4">
-      <div className="container mx-auto flex justify-between items-center">
+    <div className="bg-slate-800 dark:bg-black text-white p-4 bottom-0">
+      <div className="mx-auto flex justify-between px-4 items-center">
         <div>
           <h3 className="text-lg font-bold">Aaquib Asrar</h3>
           <p className="text-sm">Creating a better web, one pixel at a time.</p>
@@ -18,6 +19,9 @@ const Footer = () => {
           </Link>
           <Link to={githubURL} target='_blank' className="mx-2">
             <FaGithub className="hover:text-gray-400" />
+          </Link>
+          <Link to={leetcodeURL} target='_blank' className="mx-2">
+            <FaCode className="hover:text-gray-400" />
           </Link>
         </div>
       </div>

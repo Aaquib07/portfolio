@@ -25,16 +25,19 @@ const Projects = () => {
       description: ['An LSTM-based deep learning model that predicts sentiment of users', 'Achieved an accuracy of around 90% on tweets of users on Twitter'],
       projectLink: '/',
       codeLink: 'https://github.com/Aaquib07/Sentiment-Analysis'
-    }
+    },
   ]
 
   return (
-    <div>
+    <div className='h-screen'>
       <Navbar />
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-col bg-gray-100 dark:bg-zinc-900 py-10">
+        <h1 className='flex justify-center font-bold text-3xl mb-6 dark:text-white'>Recent Projects</h1>
+        <div className='flex justify-center flex-wrap'>
         {projectsList.map(project => (
           <ProjectCard key={project.id} project={project} />
         ))}
+        </div>
       </div>
       <Footer />
     </div>

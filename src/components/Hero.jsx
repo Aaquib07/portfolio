@@ -4,23 +4,24 @@ import Animation from './Animation'
 import { Link } from 'react-router-dom'
 
 const Hero = () => {
+
     return (
-        <section className="bg-gray-100 text-gray-800 py-20 h-screen flex">
+        <div className="bg-gray-100 text-gray-800 dark:bg-zinc-900 dark:text-white p-20 flex flex-wrap gap-20">
             <div className="flex flex-col justify-start items-start px-8">
                 <h1 className="text-4xl font-bold mb-4">Hello World.</h1>
                 <h1 className="text-4xl font-bold mb-4">I'm <TypeWriterText text={"Aaquib Asrar."} /></h1>
                 <ul className='list-disc pl-5 mb-4 text-gray-600 marker:text-color-red py-10'>
                     <li>
-                        <p className='text-lg'>I'm passionate developer ready to tackle new challenges.</p>
+                        <p className='text-lg dark:text-slate-300'>I'm passionate developer ready to tackle new challenges.</p>
                     </li>
                     <li>
-                        <p className='text-lg'>I am a highly motivated individual with exceptional teamwork skills.</p>
+                        <p className='text-lg dark:text-slate-300'>I am a highly motivated individual with exceptional teamwork skills.</p>
                     </li>
                     <li>
-                        <p className='text-lg'>My calm and hardworking nature allow me to tackle any challenge with ease.</p>
+                        <p className='text-lg dark:text-slate-300'>My calm and hardworking nature allow me to tackle any challenge with ease.</p>
                     </li>
                     <li>
-                        <p className='text-lg'>I believe in the power of perseverance and never give up until I achieve my goals.</p>
+                        <p className='text-lg dark:text-slate-300'>I believe in the power of perseverance and never give up until I achieve my goals.</p>
                     </li>
                 </ul>
                 <div className='flex gap-8'>
@@ -39,7 +40,7 @@ const Hero = () => {
             <div className="flex-1 flex justify-center items-center">
                 <Animation />
             </div>
-        </section>
+        </div>
     )
 }
 
