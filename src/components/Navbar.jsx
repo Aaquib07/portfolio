@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex items-center justify-between p-6 sticky top-0 bg-white dark:bg-black dark:text-white z-50 border-2 border-b-blue-500 dark:border-2 dark:border-b-slate-700">
+    <div className="flex items-center justify-between p-6 sticky top-0 bg-white dark:bg-black dark:text-white z-50 border-b-2 border-b-blue-500 dark:border-b-2 dark:border-b-slate-700">
       <div className="flex justify-center items-center gap-8">
         <Link to={'/'}>
           <h1 className="text-xl font-bold">Aaquib Asrar</h1>

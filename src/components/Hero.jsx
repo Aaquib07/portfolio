@@ -2,6 +2,7 @@ import React from 'react'
 import TypeWriterText from './TypeWriterText'
 import Animation from './Animation'
 import { Link } from 'react-router-dom'
+import HelloRobot from '../assets/hi-robot.gif'
 
 const Hero = () => {
 
@@ -38,7 +39,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="flex-1 flex justify-center items-center">
-                <Animation />
+                <img src={HelloRobot} alt="" height={25} width={250} />
             </div>
         </div>
     )

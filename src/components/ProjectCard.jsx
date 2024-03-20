@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FaGithub } from 'react-icons/fa';
 import House from '../assets/projects.avif'
 
 const ProjectCard = ({ project }) => {
@@ -18,8 +19,9 @@ const ProjectCard = ({ project }) => {
             {/* <Link to={project.projectLink} target='_blank' rel='noopener noreferrer' className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition-all duration-300 mr-4'>
                 View Project
             </Link> */}
-            <Link to={project.codeLink} target='_blank' rel='noopener noreferrer' className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out animate-pulse'>
-                GitHub Code
+            <Link to={project.codeLink} target='_blank' rel='noopener noreferrer' className='flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out animate-pulse'>
+                <FaGithub />
+                <p>GitHub Link</p>
             </Link>
         </div>
     </div>
