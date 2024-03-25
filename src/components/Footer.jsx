@@ -7,7 +7,7 @@ const Footer = () => {
     const githubURL = 'https://github.com/Aaquib07'
     const leetcodeURL = 'https://leetcode.com/Aaquib_16/'
   return (
-    <div className="bg-slate-800 dark:bg-black text-white p-4 bottom-0">
+    <div className="bg-slate-800 dark:bg-black text-white p-4">
       <div className="mx-auto flex justify-between px-4 items-center">
         <div>
           <h3 className="text-lg font-bold">Aaquib Asrar</h3>

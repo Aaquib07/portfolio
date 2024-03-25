@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className="flex items-center justify-between p-6 sticky top-0 bg-white dark:bg-black dark:text-white z-50 border-b-2 border-b-blue-500 dark:border-b-2 dark:border-b-slate-700">
       <div className="flex justify-center items-center gap-8">
         <Link to={'/'}>
-          <h1 className="text-xl font-bold">Aaquib Asrar</h1>
+          <h1 className="text-2xl font-bold">Aaquib Asrar</h1>
         </Link>
         {darkMode ? <IoSunnyOutline className="cursor-pointer" onClick={handleToggle} /> : <FaMoon className="cursor-pointer" onClick={handleToggle} />}
       </div>
@@ -32,6 +32,9 @@ const Navbar = () => {
         </NavLink>
         <NavLink to={'/projects'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
           Projects
+        </NavLink>
+        <NavLink to={'/education'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
+          Education
         </NavLink>
         <NavLink to={'/contact'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
           Contact
