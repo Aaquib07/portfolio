@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div className="bg-gray-100 text-gray-800 dark:bg-zinc-900 dark:text-slate-200 h-screen flex flex-wrap gap-20 items-center justify-center p-8">
           <div className="flex flex-col justify-start items-start px-8">
-            <div className="bg-rose-200 dark:bg-emerald-900 border border-gray-300 dark:border-gray-700 rounded-lg shadow-xl p-8 my-4 transition hover:scale-105 duration-300 ease-in-out">
+            <div className="bg-rose-200 dark:bg-emerald-900 border border-gray-300 dark:border-gray-700 rounded-lg shadow-xl p-8 my-4 transition hover:scale-110 duration-300 ease-in-out">
             <h1 className="text-5xl font-bold mb-4">
               Hello World.
             </h1>

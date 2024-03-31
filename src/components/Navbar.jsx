@@ -24,19 +24,19 @@ const Navbar = () => {
         {darkMode ? <IoSunnyOutline className="cursor-pointer" onClick={handleToggle} /> : <FaMoon className="cursor-pointer" onClick={handleToggle} />}
       </div>
       <div>
-        <NavLink to={'/'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
+        <NavLink to={'/'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition hover:scale-105 duration-300 ease-in-out">
           Home
         </NavLink>
-        <NavLink to={'/about'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
+        <NavLink to={'/about'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition hover:scale-105 duration-300 ease-in-out">
           About
         </NavLink>
-        <NavLink to={'/projects'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
+        <NavLink to={'/projects'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition hover:scale-105 duration-300 ease-in-out">
           Projects
         </NavLink>
-        <NavLink to={'/education'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
+        <NavLink to={'/education'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition hover:scale-105 duration-300 ease-in-out">
           Education
         </NavLink>
-        <NavLink to={'/contact'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-all duration-300">
+        <NavLink to={'/contact'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition hover:scale-105 duration-300 ease-in-out">
           Contact
         </NavLink>
       </div>

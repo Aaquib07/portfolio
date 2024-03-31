@@ -14,7 +14,7 @@ const About = () => {
             <h2 className='dark:text-slate-200 text-5xl font-bold mb-6 flex justify-center'>
               About Me
             </h2>
-            <div className="bg-rose-200 dark:bg-emerald-900 dark:text-slate-300 shadow-lg rounded-lg p-6 transition hover:scale-105 duration-300 ease-in-out">
+            <div className="bg-rose-200 dark:bg-emerald-900 dark:text-slate-300 shadow-lg rounded-lg p-6 transition hover:scale-110 duration-300 ease-in-out">
               <ul className="list-disc space-y-2 pl-5">
                 <li className="text-lg">
                   Proficient in multiple programming languages including <b>Python</b>, <b>C</b>, <b>C++</b>, and <b>JavaScript</b>, with a strong emphasis on clean and efficient code development.

@@ -5,7 +5,7 @@ import House from '../assets/projects.avif'
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className='flex flex-col bg-rose-200 dark:bg-emerald-900 max-w-sm rounded-lg overflow-hidden shadow-lg m-4 p-4 transition hover:scale-105 duration-300 ease-in-out'>
+    <div className='flex flex-col bg-rose-200 dark:bg-emerald-900 max-w-sm rounded-lg overflow-hidden shadow-lg m-4 p-4 transition hover:scale-110 duration-300 ease-in-out'>
         <img src={House} alt="" className='w-fit object-cover' style={{ height: '150px', width: "auto" }} />
         <div className="flex flex-col flex-grow px-6 py-4">
             <div className="font-bold text-xl mb-2 dark:text-slate-200">

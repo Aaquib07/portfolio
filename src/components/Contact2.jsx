@@ -18,8 +18,8 @@ const Contact2 = () => {
                     <h1 className='text-5xl font-bold dark:text-slate-200'>"United We Stand, Divided We Fall"</h1>
                     <p className='text-2xl text-gray-800 dark:text-slate-200'>So, let's get connected and Stand Together</p>
                 </div>
-                <div className="flex flex-wrap gap-4 h-full justify-around items-center p-6 bg-gray-100 dark:bg-zinc-900">
-                    <div className='w-full max-w-lg p-6 flex bg-rose-200 dark:bg-emerald-900 rounded-lg shadow-xl transition duration-300 hover:scale-105 ease-in-out'>
+                <div className="flex flex-wrap gap-4 h-screen justify-around items-start p-10 bg-gray-100 dark:bg-zinc-900">
+                    <div className='w-full max-w-lg p-6 flex bg-rose-200 dark:bg-emerald-900 rounded-lg shadow-xl transition duration-300 hover:scale-110 ease-in-out'>
                         <div className="w-1/2 p-4">
                             <h2 className="text-gray-800 dark:text-slate-300 font-bold text-3xl mb-4">Social Profiles</h2>
                             <ul className='flex flex-col gap-4'>
@@ -41,7 +41,7 @@ const Contact2 = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='w-full max-w-lg p-6 bg-rose-200 dark:bg-emerald-900 rounded-lg shadow-xl transition duration-300 hover:scale-105 ease-in-out'>
+                    <div className='w-full max-w-lg p-6 bg-rose-200 dark:bg-emerald-900 rounded-lg shadow-xl transition duration-300 hover:scale-110 ease-in-out'>
                         <div className="w-full p-4 flex flex-col gap-4">
                             <h2 className='text-gray-800 dark:text-slate-300 font-bold text-3xl'>Drop a Mail</h2>
                             <p className='text-lg text-gray-700 dark:text-slate-300'>Let's get connected to build a better world!</p>
