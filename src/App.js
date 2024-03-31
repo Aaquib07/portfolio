@@ -4,7 +4,6 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
-import Contact2 from './components/Contact2';
 import Education from './components/Education'
 
 function App() {
