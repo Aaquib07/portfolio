@@ -18,7 +18,7 @@ const Contact = () => {
           <h1 className="desktop:text-5xl dark:text-white font-bold tablet:text-5xl mobile:text-3xl tablet:mb-4">"United We Stand, Divided We Fall"</h1>
           <p className="desktop:text-2xl text-gray-800 dark:text-slate-200 tablet:text-3xl mobile:text-lg">So, let's get connected and Stand Together</p>
         </div>
-        <div className='flex mobile:flex-col tablet:flex-col justify-around items-center mt-10 tablet:mt-28'>
+        <div className='flex mobile:flex-col tablet:flex-col justify-around items-center desktop:mt-10 mobile:mt-10 tablet:mt-28'>
           <div className="bg-rose-200 dark:bg-emerald-900 shadow-lg rounded-lg p-10 w-full max-w-lg transition tablet:hover:scale-110 desktop:hover:scale-110 duration-300 ease-in-out mb-8 tablet:mb-20">
             <h2 className="text-gray-800 dark:text-slate-300 desktop:text-3xl tablet:text-4xl font-bold mb-4">Social Profiles</h2>
             <div className='flex flex-col'>
