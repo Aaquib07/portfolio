@@ -12,7 +12,8 @@ const Education = () => {
           <div className="flex flex-col justify-around bg-rose-200 dark:bg-emerald-900 shadow-lg rounded-lg p-10 max-w-lg transition hover:scale-110 duration-300 ease-in-out">
               <h3 className="text-gray-800 dark:text-slate-300 text-2xl font-semibold mb-4">Indian Institute of Engineering Science and Technology, Shibpur</h3>
               <p className="text-gray-600 dark:text-slate-300 text-xl mb-4">Bachelor of Technology</p>
-              <p className="text-gray-600 dark:text-slate-300 text-xl">Major: Computer Science</p>
+              <p className="text-gray-600 dark:text-slate-300 text-xl mb-4">Computer Science</p>
+              <p className="text-gray-600 dark:text-slate-300 text-xl">Duration: 2020 to 2024 (expected)</p>
           </div>
           <div className="bg-rose-200 dark:bg-green-900 shadow-lg rounded-lg p-10 max-w-lg transition hover:scale-110 duration-300 ease-in-out">
             <h3 className="text-gray-800 dark:text-slate-300 text-2xl font-semibold mb-4">Relevant Coursework</h3>
