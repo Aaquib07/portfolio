@@ -19,7 +19,7 @@ const About = () => {
                 Proficient in multiple programming languages including <b>Python</b>, <b>C</b>, <b>C++</b>, and <b>JavaScript</b>, with a strong emphasis on clean and efficient code development.
               </li>
               <li className="text-lg tablet:text-xl">
-                Extensive experience in JavaScript frameworks such as <b>React.js</b> for building interactive user interfaces, <b>Express.js</b> for backend development, and NodeJS for scalable server-side applications
+                Extensive experience in JavaScript frameworks such as <b>React.js</b> for building interactive user interfaces, <b>Express.js</b> for backend development, and <b>Node.js</b> for scalable server-side applications
               </li>
               <li className="text-lg tablet:text-xl">
                 Well-versed in Python frameworks including <b>Flask</b>, <b>Django</b>, and <b>FastAPI</b>, adept at crafting robust web applications with a focus on performance and scalability.
