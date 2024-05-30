@@ -1,10 +1,12 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import Resume from '../assets/Resume.pdf';
 import { Link } from 'react-router-dom';
 
 const About = () => {
+
+  const resumeURL = 'https://drive.google.com/file/d/1y6o419aSBvHWmUZ1nE-FdXFIxj0pxmve/view?usp=sharing'
+
   return (
     <div>
       <Navbar />
@@ -33,8 +35,8 @@ const About = () => {
             </ul>
           </div>
           <div className="flex justify-center">
-            <Link to={Resume} download={'Resume_Aaquib_Asrar.pdf'} target='_blank'>
-              <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold desktop:py-3 desktop:px-6 mobile:py-2 mobile:px-4 tablet:py-4 tablet:px-8 tablet:text-xl desktop:text-lg tablet:mt-8 rounded-full focus:outline-none focus:shadow-outline transition duration-300 ease-in-out animate-pulse hover:scale-105'>Download Resume</button>
+            <Link to={resumeURL} target='_blank'>
+            <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold desktop:py-3 desktop:px-6 mobile:py-2 mobile:px-4 tablet:py-4 tablet:px-8 tablet:text-xl desktop:text-lg tablet:mt-8 rounded-full focus:outline-none focus:shadow-outline transition duration-300 ease-in-out animate-pulse hover:scale-105'>View Resume</button>
             </Link>
           </div>
         </div>
