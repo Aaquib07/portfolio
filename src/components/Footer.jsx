@@ -13,13 +13,13 @@ const Footer = () => {
           <p className="text-sm">Creating a better web, one pixel at a time.</p>
         </div>
         <div className="flex gap-4">
-          <Link to={linkedInURL} target='_blank' className="mx-2">
+          <Link to={linkedInURL} aria-label='Go to LinkedIn profile' target='_blank' className="mx-2">
             <FaLinkedinIn className="hover:text-blue-600" />
           </Link>
-          <Link to={githubURL} target='_blank' className="mx-2">
+          <Link to={githubURL} aria-label='Go to GitHub profile' target='_blank' className="mx-2">
             <FaGithub className="hover:text-gray-400" />
           </Link>
-          <Link to={leetcodeURL} target='_blank' className="mx-2">
+          <Link to={leetcodeURL} aria-label='Go to LeetCode profile' target='_blank' className="mx-2">
             <FaCode className="hover:text-gray-400" />
           </Link>
         </div>
