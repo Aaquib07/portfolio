@@ -26,6 +26,13 @@ const Projects = () => {
       projectLink: '/',
       codeLink: 'https://github.com/Aaquib07/Sentiment-Analysis'
     },
+    {
+      id: 4,
+      title: 'Bookmarker',
+      description: ['A command-line python application that can be used to manage your bookmarks.', 'MySQL database is used to store the bookmark data.', 'User can create, read, update and delete their bookmarks.'],
+      projectLink: '/',
+      codeLink: 'https://github.com/Aaquib07/bookmarker'
+    }
   ]
 
   return (

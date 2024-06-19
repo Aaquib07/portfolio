@@ -40,6 +40,9 @@ const Navbar = () => {
         <NavLink to={'/projects'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded">
           Projects
         </NavLink>
+        <NavLink to={'/publications'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded">
+          Publications
+        </NavLink>
         <NavLink to={'/education'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded">
           Education
         </NavLink>
@@ -55,6 +58,7 @@ const Navbar = () => {
               <NavLink to={'/'} className='hover:bg-blue-500 hover:text-white py-10 mobile:py-4'>Home</NavLink>
               <NavLink to={'/about'} className='hover:bg-blue-500 hover:text-white py-10 mobile:py-4'>About</NavLink>
               <NavLink to={'/projects'} className='hover:bg-blue-500 hover:text-white py-10 mobile:py-4'>Projects</NavLink>
+              <NavLink to={'/publications'} className='hover:bg-blue-500 hover:text-white py-10 mobile:py-4'>Publications</NavLink>
               <NavLink to={'/education'} className='hover:bg-blue-500 hover:text-white py-10 mobile:py-4'>Education</NavLink>
               <NavLink to={'/contact'} className='hover:bg-blue-500 hover:text-white py-10 mobile:py-4'>Contact</NavLink>
             </div>
