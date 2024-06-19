@@ -36,7 +36,7 @@ const About = () => {
           </div>
           <div className="flex justify-center">
             <Link to={resumeURL} target='_blank'>
-            <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold desktop:py-3 desktop:px-6 mobile:py-2 mobile:px-4 tablet:py-4 tablet:px-8 tablet:text-xl desktop:text-lg tablet:mt-8 rounded-full focus:outline-none focus:shadow-outline transition duration-300 ease-in-out animate-pulse hover:scale-105'>View Resume</button>
+            <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold desktop:py-3 desktop:px-6 mobile:py-2 mobile:px-4 tablet:py-4 tablet:px-8 tablet:text-xl desktop:text-lg tablet:mt-8 rounded-full focus:outline-none focus:shadow-outline  duration-300 ease-in-out hover:scale-105'>View Resume</button>
             </Link>
           </div>
         </div>

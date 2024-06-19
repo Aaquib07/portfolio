@@ -16,7 +16,7 @@ const ProjectCard = memo(function ProjectCard({ project }) {
             </ul>
         </div>
         <div className="flex justify-center px-6 pt-4 pb-2">
-            <Link to={project.codeLink} target='_blank' rel='noopener noreferrer' className='flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out animate-pulse hover:scale-105'>
+            <Link to={project.codeLink} target='_blank' rel='noopener noreferrer' className='flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full duration-300 ease-in-out hover:scale-105'>
                 <FaGithub />
                 <p>GitHub Link</p>
             </Link>
