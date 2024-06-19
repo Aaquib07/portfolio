@@ -10,7 +10,6 @@ const Footer = () => {
     <div className="bg-slate-800 dark:bg-black text-white p-4">
       <div className="mx-auto flex justify-between px-4 items-center">
         <div>
-          <h3 className="text-lg font-bold">Aaquib Asrar</h3>
           <p className="text-sm">Creating a better web, one pixel at a time.</p>
         </div>
         <div className="flex gap-4">
@@ -25,7 +24,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className="text-center py-4">
+      <div className="text-center">
         <p className="text-sm">&copy; {new Date().getFullYear()} Aaquib Asrar. All rights reserved.</p>
       </div>
     </div>

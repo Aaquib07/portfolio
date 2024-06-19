@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { Link } from 'react-router-dom'
 import { FaGithub } from 'react-icons/fa';
-import House from '../assets/projects.avif'
+import House from '../assets/projects.webp'
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = memo(function ProjectCard({ project }) {
   return (
     <div className='flex flex-col bg-rose-200 dark:bg-emerald-900 max-w-sm rounded-lg overflow-hidden shadow-lg m-4 p-4 transition hover:scale-110 duration-300 ease-in-out'>
         <img src={House} alt="" className='w-fit object-cover rounded-lg' style={{ height: '150px', width: "auto" }} />
@@ -23,6 +23,6 @@ const ProjectCard = ({ project }) => {
         </div>
     </div>
   )
-}
+})
 
 export default ProjectCard
