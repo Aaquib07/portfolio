@@ -20,7 +20,7 @@ const Education = () => {
               Computer Science
             </p>
             <p className="text-gray-600 dark:text-slate-300 text-xl">
-              Duration: 2020 to 2024 (expected)
+              Duration: 2020 to 2024
             </p>
           </div>
           <div className="bg-rose-200 dark:bg-emerald-900 shadow-lg rounded-lg p-10 max-w-lg transition hover:scale-110 duration-300 ease-in-out">
