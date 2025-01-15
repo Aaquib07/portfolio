@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
 
-  const resumeURL = 'https://drive.google.com/file/d/1yRReCTLY53LZmvX2cJOYDMecEgTsXIh1/view?usp=sharing'
+  const resumeURL = 'https://drive.google.com/file/d/1TSZwL9uyb5IBj2N91rHl9F4k3fMIYV_l/view?usp=sharing'
 
   return (
     <div>
