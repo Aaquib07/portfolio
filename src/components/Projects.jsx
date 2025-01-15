@@ -6,6 +6,27 @@ import Footer from './Footer'
 const Projects = () => {
   const projectsList = [
     {
+      id: 7,
+      title: 'Brain Tumor Classification',
+      description: ['Developed a web application for brain tumor classification using CNN, achieving 90% test accuracy.', ' Designed the frontend in React and backend in FastAPI, enabling real-time MRI scan analysis.', 'Applied early stopping mechanism, reaching 95% training and 94% validation accuracy.'],
+      projectLink: 'https://brain-tumor-classifier.netlify.app/',
+      codeLink: 'https://github.com/Aaquib07/brain-tumor-classification'
+    },
+    {
+      id: 5,
+      title: 'Summarizit',
+      description: ['User-friendly web application to extract summary out of a long paragraph.', 'The frontend of the application is build using React.js and backend is implemented using Node.js and Express.js', 'Elegant UI along with seamless performance.'],
+      projectLink: 'https://summarizit.netlify.app/',
+      codeLink: 'https://github.com/Aaquib07/summarize-it'
+    },
+    {
+      id: 6,
+      title: 'Portfolio',
+      description: ['This portfolio website is built using React.js.', 'Caching method is used to enhance the performance.', 'Dark mode feature is also included.'],
+      projectLink: 'https://aaquib-asrar.netlify.app/',
+      codeLink: 'https://github.com/Aaquib07/portfolio'
+    },
+    {
       id: 1,
       title: 'Movie Recommendation System',
       description: ['A Streamlit-based application to recommend movies to the user.', 'Content-based filtering has been applied to filter movies.', 'Cosine similarity has been used to calculate the similarity between movies.'],
@@ -33,20 +54,8 @@ const Projects = () => {
       projectLink: '',
       codeLink: 'https://github.com/Aaquib07/bookmarker'
     },
-    {
-      id: 5,
-      title: 'Summarize-it',
-      description: ['User-friendly web application to extract summary out of a long paragraph.', 'The frontend of the application is build using React.js and backend is implemented using Node.js and Express.js', 'Elegant UI along with seamless performance.'],
-      projectLink: 'https://summarizit.netlify.app/',
-      codeLink: 'https://github.com/Aaquib07/summarize-it'
-    },
-    {
-      id: 6,
-      title: 'Portfolio',
-      description: ['This portfolio website is built using React.js.', 'Caching method is used to enhance the performance.', 'Dark mode feature is also included.'],
-      projectLink: 'https://aaquib-asrar.netlify.app/',
-      codeLink: 'https://github.com/Aaquib07/portfolio'
-    }
+    ,
+    
   ]
 
   return (
