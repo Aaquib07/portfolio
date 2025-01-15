@@ -18,7 +18,7 @@ const Publications = () => {
     <div className='h-screen'>
       <Navbar />
       <div className="flex flex-col bg-gray-100 dark:bg-zinc-900 py-10 gap-4">
-        <h1 className='flex justify-center font-bold text-5xl mb-6 dark:text-slate-200'>Recent Projects</h1>
+        <h1 className='flex justify-center font-bold text-5xl mb-6 dark:text-slate-200'>Recent Publications</h1>
         <div className='flex justify-around flex-wrap'>
         {publicationsList.map(publication => (
           <PublicationCard key={publication.id} publication={publication} />
