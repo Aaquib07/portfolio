@@ -34,8 +34,8 @@ const Navbar = () => {
         <NavLink to={'/'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded">
           Home
         </NavLink>
-        <NavLink to={'/about'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded">
-          About
+        <NavLink to={'/skills'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded">
+          Skills
         </NavLink>
         <NavLink to={'/projects'} className="ml-4 text-lg hover:bg-blue-500 hover:text-white px-2 py-1 rounded">
           Projects
@@ -56,7 +56,7 @@ const Navbar = () => {
           <div>
             <div className="flex flex-col justify-center items-center gap-2 text-xl tablet:text-7xl h-screen w-full absolute top-0 right-0 bg-white dark:bg-black rounded shadow-md">
               <NavLink to={'/'} className='hover:bg-blue-500 hover:text-white py-10 mobile:py-4'>Home</NavLink>
-              <NavLink to={'/about'} className='hover:bg-blue-500 hover:text-white py-10 mobile:py-4'>About</NavLink>
+              <NavLink to={'/skills'} className='hover:bg-blue-500 hover:text-white py-10 mobile:py-4'>Skills</NavLink>
               <NavLink to={'/projects'} className='hover:bg-blue-500 hover:text-white py-10 mobile:py-4'>Projects</NavLink>
               <NavLink to={'/publications'} className='hover:bg-blue-500 hover:text-white py-10 mobile:py-4'>Publications</NavLink>
               <NavLink to={'/education'} className='hover:bg-blue-500 hover:text-white py-10 mobile:py-4'>Education</NavLink>

@@ -2,6 +2,7 @@ import React from 'react'
 import PublicationCard from './PublicationCard'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import { motion } from 'framer-motion'
 
 const Publications = () => {
   const publicationsList = [
@@ -18,10 +19,24 @@ const Publications = () => {
     <div className='h-screen'>
       <Navbar />
       <div className="flex flex-col bg-gray-100 dark:bg-zinc-900 py-10 gap-4">
-        <h1 className='flex justify-center font-bold text-5xl mb-6 dark:text-slate-200'>Recent Publications</h1>
+        <motion.h1 
+          className='dark:text-slate-200 text-5xl font-bold mb-12 text-center'
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          Recent Publications
+        </motion.h1>
         <div className='flex justify-around flex-wrap'>
-        {publicationsList.map(publication => (
-          <PublicationCard key={publication.id} publication={publication} />
+        {publicationsList.map((publication, index) => (
+          <motion.div
+            key={publication.id}
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+          >
+            <PublicationCard publication={publication} />
+          </motion.div>
         ))}
         </div>
       </div>
