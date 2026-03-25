@@ -36,15 +36,6 @@ const Skills = () => {
       ]
     },
     {
-      title: "Python Frameworks",
-      icon: <FaFlask className="text-3xl text-gray-600" />,
-      skills: [
-        { name: "Flask", icon: <FaFlask className="text-2xl text-gray-500" /> },
-        { name: "Django", icon: <FaPython className="text-2xl text-green-700" /> },
-        { name: "FastAPI", icon: <FaPython className="text-2xl text-teal-500" /> }
-      ]
-    },
-    {
       title: "Machine Learning",
       icon: <FaBrain className="text-3xl text-purple-500" />,
       skills: [
